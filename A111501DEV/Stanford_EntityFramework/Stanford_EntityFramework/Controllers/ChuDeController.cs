@@ -9,9 +9,10 @@ namespace Stanford_EntityFramework.Controllers
 {
     public class ChuDeController : Controller
     {
-        //
-        // GET: /ChuDe/
-
+        /// <summary>
+        /// Lấy thông tin chủ đề bài viết trong db bằng Entity Framework
+        /// </summary>
+        /// <returns></returns>
         public ActionResult DanhSach()
         {
             //Lấy danh sách chủ đề từ db
